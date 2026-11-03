@@ -42,3 +42,17 @@ Exemple de corps POST :
 ```
 
 Le repository Spring Data REST est utilisé en interne ; les routes HTTP explicites sont définies par `StudentController` pour conserver les chemins et statuts demandés dans le TP.
+
+## Résultat vérifié
+
+Commande exécutée le 3 novembre 2026 :
+
+```powershell
+mvn -B test
+```
+
+7 tests réussis, dont le test de l’API et du document OpenAPI avec H2 (0 échec).
+
+![Résultat de la vérification dans le terminal](docs/verification-terminal.png)
+
+L’image est une transcription visuelle de la sortie réelle de vérification ; la capture native de la fenêtre du terminal n’était pas disponible dans cet environnement.
