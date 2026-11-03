@@ -56,3 +56,9 @@ mvn -B test
 ![Résultat de la vérification dans le terminal](docs/verification-terminal.png)
 
 L’image est une transcription visuelle de la sortie réelle de vérification ; la capture native de la fenêtre du terminal n’était pas disponible dans cet environnement.
+
+## Vérification dans Swagger UI
+
+Le 3 novembre 2026, l'application a été lancée avec H2 en mémoire pour le test local, car MySQL était arrêté. Dans Swagger UI, l'appel `GET /students/count` a renvoyé HTTP `200` et le corps `0` pour une base vide.
+
+![Résultat de GET /students/count dans Swagger UI](docs/swagger-ui.jpg)
